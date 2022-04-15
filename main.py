@@ -17,9 +17,9 @@ def inverse(a, n):
 
 class PrivateSide:
     def __init__(self):
-        self.a = [1, 2, 5, 11, 32, 87, 141]  # privateKey
-        self.q = 1234
-        self.r = 901
+        self.a = [2, 5, 18, 26, 82, 135, 280]  # privateKey
+        self.q = 1209
+        self.r = 1003
         self.r1 = inverse(self.r, self.q)
 
     def generatePublicKey(self):
